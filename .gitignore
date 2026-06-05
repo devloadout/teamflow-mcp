@@ -1,0 +1,4 @@
+node_modules/
+_*.mjs
+*.tgz
+.npmrc
