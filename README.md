@@ -17,7 +17,12 @@ provide its credentials, so configure just the services you use.
 
 ## Install
 
-No global install needed — your MCP client runs it via `npx`.
+No global install needed — your MCP client runs it via `npx`. Use either source:
+
+- **From GitHub (works today):** set `args` to `["-y", "github:devloadout/teamflow-mcp"]`
+- **From npm (once published):** set `args` to `["-y", "teamflow-mcp"]`
+
+The examples below show the npm form; swap in the GitHub form if you prefer.
 
 ### Claude Desktop / Claude Code
 
